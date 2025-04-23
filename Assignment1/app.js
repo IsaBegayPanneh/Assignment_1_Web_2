@@ -1,4 +1,3 @@
-/*
 async function fetchUsers() {
     try {
         const response = await fetch('https://jsonplaceholder.typicode.com/users');
@@ -25,4 +24,4 @@ function displayUserDetails(user) {
     userDetails.innerHTML = `Name: ${user.name}<br>Email: ${user.email}<br>Address:
             ${user.address.street}, ${user.address.city}`;
 }
-fetchUsers();*/
+fetchUsers();
